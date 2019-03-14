@@ -10,15 +10,9 @@ public class Employee{
 
 
 	public Employee() {
-		this.employeeId = 0;
-		this.pps = "";
-		this.surname = "";
-		this.firstName = "";
-		this.gender = '\0';
-		this.department = "";
-		this.salary = 0;
-		this.fullTime = false;
+
 	}
+	
 	public Employee(int employeeId, String pps, String surname, String firstName, char gender, String department, double salary,
 			boolean fullTime) {
 		this.employeeId = employeeId;
@@ -99,10 +93,6 @@ public class Employee{
 
 	public String toString() {
 		String bool = "";
-		if (fullTime)
-			bool = "Yes";
-		else
-			bool = "No";
 
 		return "Employee ID: " + this.employeeId + "\nPPS Number: " + this.pps + "\nSurname: " + this.surname
 				+ "\nFirst Name: " + this.firstName + "\nGender: " + this.gender + "\nDepartment: " + this.department + "\nSalary: " + this.salary
