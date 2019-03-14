@@ -79,7 +79,7 @@ public class SearchByIdDialog extends JDialog implements ActionListener {
 			}
 			catch (NumberFormatException num) {
 				
-				searchField.setBackground(new Color(255, 150, 150));
+				searchField.setBackground(Colours.red);
 				JOptionPane.showMessageDialog(null, "Wrong ID format!");
 			}
 		}
