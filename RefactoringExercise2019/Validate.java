@@ -4,7 +4,7 @@ import java.io.File;
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
-import javax.swing.UIManager;
+import javax.swing.UIManager;  
 
 public class Validate {
 	
